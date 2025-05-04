@@ -4,8 +4,6 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
-    "start": "next start",
     "build": "react-scripts build",
     "start": "react-scripts start",
     "lint": "next lint",
@@ -14,10 +12,9 @@
   },
   "dependencies": {
     "framer-motion": "^12.9.4",
-    "next": "15.3.1",
+    "next": "^15.3.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-scripts": "^5.0.1",
     "recharts": "^2.15.3"
   },
   "devDependencies": {
